@@ -21,5 +21,10 @@ namespace VatTu.SimpleForm
         {
 
         }
+
+        private void comboBox_Type_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

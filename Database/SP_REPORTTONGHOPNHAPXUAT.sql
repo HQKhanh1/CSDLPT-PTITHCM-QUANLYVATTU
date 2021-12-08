@@ -1,5 +1,4 @@
-// TỔNG HỢP NHẬP XUẤT
-ALTER PROC [dbo].[SP_REPORTTonghopNhapXuat_NV]
+create PROC [dbo].[SP_REPORTTonghopNhapXuat_NV]
 	@NGAYBD date, @NGAYKT date
 AS
 BEGIN

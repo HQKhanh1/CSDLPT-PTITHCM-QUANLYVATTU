@@ -76,6 +76,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_NHANVIEN.cs">
+      <DependentUpon>DS_NHANVIEN.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_NHANVIEN.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -85,6 +88,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QLVT_DATHANGDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLVT_DATHANGDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="QLVT_DATHANGDataSet_Report.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -362,6 +370,17 @@
     </None>
     <None Include="QLVT_DATHANGDataSet.xss">
       <DependentUpon>QLVT_DATHANGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLVT_DATHANGDataSet1.xsc">
+      <DependentUpon>QLVT_DATHANGDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLVT_DATHANGDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLVT_DATHANGDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLVT_DATHANGDataSet1.xss">
+      <DependentUpon>QLVT_DATHANGDataSet1.xsd</DependentUpon>
     </None>
     <None Include="QLVT_DATHANGDataSet_Report.xsc">
       <DependentUpon>QLVT_DATHANGDataSet_Report.xsd</DependentUpon>

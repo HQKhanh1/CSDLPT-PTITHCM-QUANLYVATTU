@@ -1,4 +1,4 @@
-ALTER PROC [dbo].[sp_PhieuNvLapTrongNamTheoLoai]
+CREATE PROC [dbo].[sp_PhieuNvLapTrongNamTheoLoai]
 @LOAI CHAR, @NAM INT
 AS
 IF (@LOAI = 'N')

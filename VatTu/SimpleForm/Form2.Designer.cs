@@ -111,6 +111,7 @@
             this.comboBox_ChiNhanh.Size = new System.Drawing.Size(326, 33);
             this.comboBox_ChiNhanh.TabIndex = 7;
             this.comboBox_ChiNhanh.ValueMember = "TENSERVER";
+            this.comboBox_ChiNhanh.SelectedIndexChanged += new System.EventHandler(this.comboBox_ChiNhanh_SelectedIndexChanged);
             // 
             // vDSPHANMANHBindingSource
             // 

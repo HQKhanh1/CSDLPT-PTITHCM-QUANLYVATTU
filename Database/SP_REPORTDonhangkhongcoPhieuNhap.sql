@@ -1,4 +1,4 @@
-ALTER PROC [dbo].[SP_REPORTDonhangkhongcoPhieuNhap]
+CREATE PROC [dbo].[SP_REPORTDonhangkhongcoPhieuNhap]
 AS
 SELECT DH.MasoDDH,Ngay,NhaCC,TenNV, TENVT, SOLUONG, DONGIA 
 FROM

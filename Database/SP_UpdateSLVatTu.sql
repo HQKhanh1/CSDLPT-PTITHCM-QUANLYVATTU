@@ -1,4 +1,4 @@
-ALTER PROCEDURE [dbo].[SP_UpdateSLVatTu]
+CREATE PROCEDURE [dbo].[SP_UpdateSLVatTu]
 @MAVT nchar(4),
 @SOLUONG int,
 @TYPE NVARCHAR(6)

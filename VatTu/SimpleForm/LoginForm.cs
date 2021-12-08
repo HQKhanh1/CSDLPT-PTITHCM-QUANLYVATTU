@@ -98,5 +98,10 @@ namespace VatTu
         {
             this.Close();
         }
+
+        private void comboBox_ChiNhanh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

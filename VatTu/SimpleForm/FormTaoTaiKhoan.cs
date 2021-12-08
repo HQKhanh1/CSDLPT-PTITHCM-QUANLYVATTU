@@ -75,19 +75,22 @@ namespace VatTu.SimpleForm
             }
             Console.WriteLine(login + "  " + password + "   " + username + "    " + role);
 
-            Program.conn = new SqlConnection(Program.connstr);
+            /*Program.conn = new SqlConnection(Program.connstr);
             Program.conn.Open();
-            SqlCommand cmd = new SqlCommand("SP_TAOTAIKHOAN", Program.conn);
+            SqlCommand cmd = new SqlCommand("SP_TAOACCOUNT", Program.conn);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.Add(new SqlParameter("@LGNAME", login));
             cmd.Parameters.Add(new SqlParameter("@PASS", password));
             cmd.Parameters.Add(new SqlParameter("@USERNAME", username));
-            cmd.Parameters.Add(new SqlParameter("@ROLE", role));
+            cmd.Parameters.Add(new SqlParameter("@ROLE", role));*/
             SqlDataReader myReader = null;
-            //String strleng = "EXEC SP_TAOTAIKHOAN '" + login + "','"+password+"','"+username+"','"+role+"'";
+            String strleng = "EXEC SP_TAOACCOUNT '" + login + "','"+password+"','"+username+"','"+role+"'";
+            Console.WriteLine(strleng); 
+            myReader = Program.ExecSqlDataReader(strleng);
+            if (myReader == null) return;
             try
             {
-                myReader = cmd.ExecuteReader();
+                myReader.Read();
                 MessageBox.Show("Tạo tài khoản thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (SqlException e)
@@ -127,6 +130,16 @@ namespace VatTu.SimpleForm
         }
 
         private void comboBox_ChiNhanh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox_NV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_LoginName_TextChanged(object sender, EventArgs e)
         {
 
         }

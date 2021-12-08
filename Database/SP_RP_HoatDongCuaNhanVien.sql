@@ -1,4 +1,4 @@
-ALTER PROC [dbo].[SP_RP_HoatDongCuaNhanVien]
+CREATE PROC [dbo].[SP_RP_HoatDongCuaNhanVien]
 @MANV INT, @FROM DATE, @TO DATE, @LOAI CHAR
 AS
 BEGIN

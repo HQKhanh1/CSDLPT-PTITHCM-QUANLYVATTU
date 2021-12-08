@@ -1,4 +1,4 @@
-ALTER PROC [dbo].[SP_ThongTinNhanVien]
+CREATE PROC [dbo].[SP_ThongTinNhanVien]
 @MANV INT
 AS
 BEGIN

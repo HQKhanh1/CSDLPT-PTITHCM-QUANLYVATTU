@@ -53,8 +53,9 @@
             this.comboBox_Type.Location = new System.Drawing.Point(337, 220);
             this.comboBox_Type.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox_Type.Name = "comboBox_Type";
-            this.comboBox_Type.Size = new System.Drawing.Size(478, 27);
+            this.comboBox_Type.Size = new System.Drawing.Size(478, 30);
             this.comboBox_Type.TabIndex = 0;
+            this.comboBox_Type.SelectedIndexChanged += new System.EventHandler(this.comboBox_Type_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -62,7 +63,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(187, 223);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 19);
+            this.label1.Size = new System.Drawing.Size(52, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "Loại:";
             // 
@@ -72,7 +73,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(187, 297);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 19);
+            this.label2.Size = new System.Drawing.Size(106, 22);
             this.label2.TabIndex = 3;
             this.label2.Text = "Tháng Năm:";
             // 
@@ -96,7 +97,7 @@
             this.dteDate_From.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.dteDate_From.Properties.VistaCalendarInitialViewStyle = DevExpress.XtraEditors.VistaCalendarInitialViewStyle.YearView;
             this.dteDate_From.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.YearView;
-            this.dteDate_From.Size = new System.Drawing.Size(167, 26);
+            this.dteDate_From.Size = new System.Drawing.Size(167, 28);
             this.dteDate_From.TabIndex = 4;
             // 
             // button_Submit
@@ -130,7 +131,7 @@
             this.dteDate_To.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.dteDate_To.Properties.VistaCalendarInitialViewStyle = DevExpress.XtraEditors.VistaCalendarInitialViewStyle.YearView;
             this.dteDate_To.Properties.VistaCalendarViewStyle = DevExpress.XtraEditors.VistaCalendarViewStyle.YearView;
-            this.dteDate_To.Size = new System.Drawing.Size(167, 26);
+            this.dteDate_To.Size = new System.Drawing.Size(167, 28);
             this.dteDate_To.TabIndex = 6;
             // 
             // label3
@@ -140,7 +141,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(574, 297);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(15, 19);
+            this.label3.Size = new System.Drawing.Size(17, 22);
             this.label3.TabIndex = 7;
             this.label3.Text = "-";
             // 
@@ -156,7 +157,7 @@
             // 
             // FormSupportReport3_3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 602);
             this.Controls.Add(this.button1);
