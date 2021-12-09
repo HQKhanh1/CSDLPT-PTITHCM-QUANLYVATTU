@@ -203,7 +203,7 @@
             mAKHOLabel.AutoSize = true;
             mAKHOLabel.Location = new System.Drawing.Point(105, 125);
             mAKHOLabel.Name = "mAKHOLabel";
-            mAKHOLabel.Size = new System.Drawing.Size(46, 13);
+            mAKHOLabel.Size = new System.Drawing.Size(58, 17);
             mAKHOLabel.TabIndex = 11;
             mAKHOLabel.Text = "Mã Kho:";
             // 
@@ -212,7 +212,7 @@
             nhaCCLabel.AutoSize = true;
             nhaCCLabel.Location = new System.Drawing.Point(105, 95);
             nhaCCLabel.Name = "nhaCCLabel";
-            nhaCCLabel.Size = new System.Drawing.Size(47, 13);
+            nhaCCLabel.Size = new System.Drawing.Size(59, 17);
             nhaCCLabel.TabIndex = 9;
             nhaCCLabel.Text = "Nhà CC:";
             // 
@@ -221,7 +221,7 @@
             masoDDHLabel.AutoSize = true;
             masoDDHLabel.Location = new System.Drawing.Point(103, 68);
             masoDDHLabel.Name = "masoDDHLabel";
-            masoDDHLabel.Size = new System.Drawing.Size(49, 13);
+            masoDDHLabel.Size = new System.Drawing.Size(63, 17);
             masoDDHLabel.TabIndex = 7;
             masoDDHLabel.Text = "Mã DDH:";
             // 
@@ -230,7 +230,7 @@
             mAPXLabel.AutoSize = true;
             mAPXLabel.Location = new System.Drawing.Point(103, 70);
             mAPXLabel.Name = "mAPXLabel";
-            mAPXLabel.Size = new System.Drawing.Size(40, 13);
+            mAPXLabel.Size = new System.Drawing.Size(50, 17);
             mAPXLabel.TabIndex = 13;
             mAPXLabel.Text = "Mã PX:";
             // 
@@ -239,7 +239,7 @@
             hOTENKHLabel.AutoSize = true;
             hOTENKHLabel.Location = new System.Drawing.Point(103, 100);
             hOTENKHLabel.Name = "hOTENKHLabel";
-            hOTENKHLabel.Size = new System.Drawing.Size(45, 13);
+            hOTENKHLabel.Size = new System.Drawing.Size(57, 17);
             hOTENKHLabel.TabIndex = 14;
             hOTENKHLabel.Text = "Tên KH:";
             // 
@@ -248,7 +248,7 @@
             mAKHOLabel1.AutoSize = true;
             mAKHOLabel1.Location = new System.Drawing.Point(103, 129);
             mAKHOLabel1.Name = "mAKHOLabel1";
-            mAKHOLabel1.Size = new System.Drawing.Size(46, 13);
+            mAKHOLabel1.Size = new System.Drawing.Size(58, 17);
             mAKHOLabel1.TabIndex = 15;
             mAKHOLabel1.Text = "Mã Kho:";
             // 
@@ -397,50 +397,50 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(1132, 24);
+            this.barDockControlTop.Size = new System.Drawing.Size(1149, 30);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 737);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 729);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(1132, 20);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1149, 20);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 24);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 30);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 713);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 699);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1132, 24);
+            this.barDockControlRight.Location = new System.Drawing.Point(1149, 30);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 713);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 699);
             // 
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.label_ChiNhanh);
             this.groupControl1.Controls.Add(this.comboBox_ChiNhanh);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupControl1.Location = new System.Drawing.Point(0, 24);
+            this.groupControl1.Location = new System.Drawing.Point(0, 30);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(1132, 65);
+            this.groupControl1.Size = new System.Drawing.Size(1149, 65);
             this.groupControl1.TabIndex = 5;
             this.groupControl1.Text = "Chi Nhánh";
             // 
             // label_ChiNhanh
             // 
             this.label_ChiNhanh.AutoSize = true;
-            this.label_ChiNhanh.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_ChiNhanh.Location = new System.Drawing.Point(144, 36);
+            this.label_ChiNhanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_ChiNhanh.Location = new System.Drawing.Point(105, 34);
             this.label_ChiNhanh.Name = "label_ChiNhanh";
-            this.label_ChiNhanh.Size = new System.Drawing.Size(63, 13);
+            this.label_ChiNhanh.Size = new System.Drawing.Size(83, 17);
             this.label_ChiNhanh.TabIndex = 1;
             this.label_ChiNhanh.Text = "Chi Nhánh";
             // 
@@ -450,7 +450,7 @@
             this.comboBox_ChiNhanh.FormattingEnabled = true;
             this.comboBox_ChiNhanh.Location = new System.Drawing.Point(211, 32);
             this.comboBox_ChiNhanh.Name = "comboBox_ChiNhanh";
-            this.comboBox_ChiNhanh.Size = new System.Drawing.Size(269, 21);
+            this.comboBox_ChiNhanh.Size = new System.Drawing.Size(269, 24);
             this.comboBox_ChiNhanh.TabIndex = 0;
             this.comboBox_ChiNhanh.SelectedIndexChanged += new System.EventHandler(this.ComboBox_ChiNhanh_SelectedIndexChanged);
             // 
@@ -491,11 +491,11 @@
             // 
             this.gridDDH.DataSource = this.bdsDH;
             this.gridDDH.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gridDDH.Location = new System.Drawing.Point(0, 89);
+            this.gridDDH.Location = new System.Drawing.Point(0, 95);
             this.gridDDH.MainView = this.gvDDH;
             this.gridDDH.MenuManager = this.barManager1;
             this.gridDDH.Name = "gridDDH";
-            this.gridDDH.Size = new System.Drawing.Size(1132, 245);
+            this.gridDDH.Size = new System.Drawing.Size(1149, 245);
             this.gridDDH.TabIndex = 6;
             this.gridDDH.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvDDH});
@@ -587,11 +587,11 @@
             // 
             this.gridPX.DataSource = this.bdsPX;
             this.gridPX.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gridPX.Location = new System.Drawing.Point(0, 334);
+            this.gridPX.Location = new System.Drawing.Point(0, 340);
             this.gridPX.MainView = this.gvPX;
             this.gridPX.MenuManager = this.barManager1;
             this.gridPX.Name = "gridPX";
-            this.gridPX.Size = new System.Drawing.Size(1132, 245);
+            this.gridPX.Size = new System.Drawing.Size(1149, 245);
             this.gridPX.TabIndex = 11;
             this.gridPX.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvPX});
@@ -710,9 +710,9 @@
             this.gcDDH.Controls.Add(this.gridCTDDH);
             this.gcDDH.Controls.Add(this.gbInfoDDH);
             this.gcDDH.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gcDDH.Location = new System.Drawing.Point(0, 579);
+            this.gcDDH.Location = new System.Drawing.Point(0, 585);
             this.gcDDH.Name = "gcDDH";
-            this.gcDDH.Size = new System.Drawing.Size(1132, 26);
+            this.gcDDH.Size = new System.Drawing.Size(1149, 26);
             this.gcDDH.TabIndex = 23;
             this.gcDDH.Text = "Đặt Hàng";
             // 
@@ -720,12 +720,12 @@
             // 
             this.gridCTDDH.DataSource = this.bdsCTDDH;
             this.gridCTDDH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridCTDDH.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridCTDDH.Location = new System.Drawing.Point(495, 23);
+            this.gridCTDDH.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridCTDDH.Location = new System.Drawing.Point(495, 28);
             this.gridCTDDH.MainView = this.gvCTDDH;
             this.gridCTDDH.MenuManager = this.barManager1;
             this.gridCTDDH.Name = "gridCTDDH";
-            this.gridCTDDH.Size = new System.Drawing.Size(635, 1);
+            this.gridCTDDH.Size = new System.Drawing.Size(652, 0);
             this.gridCTDDH.TabIndex = 1;
             this.gridCTDDH.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvCTDDH});
@@ -798,9 +798,9 @@
             this.gbInfoDDH.Controls.Add(masoDDHLabel);
             this.gbInfoDDH.Controls.Add(this.txtMaDDH);
             this.gbInfoDDH.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gbInfoDDH.Location = new System.Drawing.Point(2, 23);
+            this.gbInfoDDH.Location = new System.Drawing.Point(2, 28);
             this.gbInfoDDH.Name = "gbInfoDDH";
-            this.gbInfoDDH.Size = new System.Drawing.Size(493, 1);
+            this.gbInfoDDH.Size = new System.Drawing.Size(493, 0);
             this.gbInfoDDH.TabIndex = 0;
             this.gbInfoDDH.TabStop = false;
             this.gbInfoDDH.Text = "Thông Tin";
@@ -821,7 +821,7 @@
             this.txtMaKho_DH.Location = new System.Drawing.Point(167, 122);
             this.txtMaKho_DH.Name = "txtMaKho_DH";
             this.txtMaKho_DH.ReadOnly = true;
-            this.txtMaKho_DH.Size = new System.Drawing.Size(164, 21);
+            this.txtMaKho_DH.Size = new System.Drawing.Size(164, 23);
             this.txtMaKho_DH.TabIndex = 12;
             this.txtMaKho_DH.Validating += new System.ComponentModel.CancelEventHandler(this.TxtMaKho_DH_Validating);
             // 
@@ -831,7 +831,7 @@
             this.txtNhaCC.Location = new System.Drawing.Point(167, 92);
             this.txtNhaCC.MaxLength = 100;
             this.txtNhaCC.Name = "txtNhaCC";
-            this.txtNhaCC.Size = new System.Drawing.Size(164, 21);
+            this.txtNhaCC.Size = new System.Drawing.Size(164, 23);
             this.txtNhaCC.TabIndex = 10;
             this.txtNhaCC.Validating += new System.ComponentModel.CancelEventHandler(this.TxtNhaCC_Validating);
             // 
@@ -841,7 +841,7 @@
             this.txtMaDDH.Location = new System.Drawing.Point(167, 65);
             this.txtMaDDH.MaxLength = 8;
             this.txtMaDDH.Name = "txtMaDDH";
-            this.txtMaDDH.Size = new System.Drawing.Size(164, 21);
+            this.txtMaDDH.Size = new System.Drawing.Size(164, 23);
             this.txtMaDDH.TabIndex = 8;
             this.txtMaDDH.Validating += new System.ComponentModel.CancelEventHandler(this.TxtMaDDH_Validating);
             // 
@@ -850,9 +850,9 @@
             this.gcPX.Controls.Add(this.gridCTPX);
             this.gcPX.Controls.Add(this.gbInfoPX);
             this.gcPX.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gcPX.Location = new System.Drawing.Point(0, 605);
+            this.gcPX.Location = new System.Drawing.Point(0, 611);
             this.gcPX.Name = "gcPX";
-            this.gcPX.Size = new System.Drawing.Size(1132, 36);
+            this.gcPX.Size = new System.Drawing.Size(1149, 10);
             this.gcPX.TabIndex = 31;
             this.gcPX.Text = "Phiếu Xuất";
             this.gcPX.Visible = false;
@@ -861,12 +861,12 @@
             // 
             this.gridCTPX.DataSource = this.bdsCTPX;
             this.gridCTPX.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridCTPX.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridCTPX.Location = new System.Drawing.Point(495, 23);
+            this.gridCTPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridCTPX.Location = new System.Drawing.Point(495, 28);
             this.gridCTPX.MainView = this.gvCTPX;
             this.gridCTPX.MenuManager = this.barManager1;
             this.gridCTPX.Name = "gridCTPX";
-            this.gridCTPX.Size = new System.Drawing.Size(635, 11);
+            this.gridCTPX.Size = new System.Drawing.Size(652, 0);
             this.gridCTPX.TabIndex = 1;
             this.gridCTPX.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvCTPX});
@@ -938,9 +938,9 @@
             this.gbInfoPX.Controls.Add(this.txtMaPX);
             this.gbInfoPX.Controls.Add(this.btnGridKho2);
             this.gbInfoPX.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gbInfoPX.Location = new System.Drawing.Point(2, 23);
+            this.gbInfoPX.Location = new System.Drawing.Point(2, 28);
             this.gbInfoPX.Name = "gbInfoPX";
-            this.gbInfoPX.Size = new System.Drawing.Size(493, 11);
+            this.gbInfoPX.Size = new System.Drawing.Size(493, 0);
             this.gbInfoPX.TabIndex = 0;
             this.gbInfoPX.TabStop = false;
             this.gbInfoPX.Text = "Thông Tin";
@@ -951,7 +951,7 @@
             this.txtMaKho_PX.Location = new System.Drawing.Point(164, 126);
             this.txtMaKho_PX.Name = "txtMaKho_PX";
             this.txtMaKho_PX.ReadOnly = true;
-            this.txtMaKho_PX.Size = new System.Drawing.Size(166, 21);
+            this.txtMaKho_PX.Size = new System.Drawing.Size(166, 23);
             this.txtMaKho_PX.TabIndex = 16;
             this.txtMaKho_PX.Validating += new System.ComponentModel.CancelEventHandler(this.TxtMaKho_PX_Validating);
             // 
@@ -961,7 +961,7 @@
             this.txtTenKH.Location = new System.Drawing.Point(164, 97);
             this.txtTenKH.MaxLength = 100;
             this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(166, 21);
+            this.txtTenKH.Size = new System.Drawing.Size(166, 23);
             this.txtTenKH.TabIndex = 15;
             this.txtTenKH.Validating += new System.ComponentModel.CancelEventHandler(this.TxtTenKH_Validating);
             // 
@@ -971,7 +971,7 @@
             this.txtMaPX.Location = new System.Drawing.Point(163, 67);
             this.txtMaPX.MaxLength = 8;
             this.txtMaPX.Name = "txtMaPX";
-            this.txtMaPX.Size = new System.Drawing.Size(167, 21);
+            this.txtMaPX.Size = new System.Drawing.Size(167, 23);
             this.txtMaPX.TabIndex = 14;
             this.txtMaPX.Validating += new System.ComponentModel.CancelEventHandler(this.TxtMaPX_Validating);
             // 
@@ -989,9 +989,9 @@
             // 
             this.gcPN.Controls.Add(this.splitContainer1);
             this.gcPN.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gcPN.Location = new System.Drawing.Point(0, 641);
+            this.gcPN.Location = new System.Drawing.Point(0, 621);
             this.gcPN.Name = "gcPN";
-            this.gcPN.Size = new System.Drawing.Size(1132, 96);
+            this.gcPN.Size = new System.Drawing.Size(1149, 96);
             this.gcPN.TabIndex = 36;
             this.gcPN.Text = "Phiếu Nhập";
             this.gcPN.Visible = false;
@@ -999,7 +999,7 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(2, 23);
+            this.splitContainer1.Location = new System.Drawing.Point(2, 28);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -1009,8 +1009,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.gridCTPN);
-            this.splitContainer1.Size = new System.Drawing.Size(1128, 71);
-            this.splitContainer1.SplitterDistance = 596;
+            this.splitContainer1.Size = new System.Drawing.Size(1145, 66);
+            this.splitContainer1.SplitterDistance = 604;
             this.splitContainer1.TabIndex = 2;
             // 
             // gridPN
@@ -1018,15 +1018,15 @@
             this.gridPN.DataSource = this.bdsPN;
             this.gridPN.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridPN.EmbeddedNavigator.Appearance.BorderColor = System.Drawing.Color.DarkSeaGreen;
-            this.gridPN.EmbeddedNavigator.Appearance.Font = new System.Drawing.Font("SF Pro Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridPN.EmbeddedNavigator.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridPN.EmbeddedNavigator.Appearance.Options.UseBorderColor = true;
             this.gridPN.EmbeddedNavigator.Appearance.Options.UseFont = true;
-            this.gridPN.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridPN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridPN.Location = new System.Drawing.Point(0, 0);
             this.gridPN.MainView = this.gvPN;
             this.gridPN.MenuManager = this.barManager1;
             this.gridPN.Name = "gridPN";
-            this.gridPN.Size = new System.Drawing.Size(596, 71);
+            this.gridPN.Size = new System.Drawing.Size(604, 66);
             this.gridPN.TabIndex = 1;
             this.gridPN.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvPN});
@@ -1112,12 +1112,12 @@
             // 
             this.gridCTPN.DataSource = this.bdsCTPN;
             this.gridCTPN.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridCTPN.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridCTPN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridCTPN.Location = new System.Drawing.Point(0, 0);
             this.gridCTPN.MainView = this.gridView5;
             this.gridCTPN.MenuManager = this.barManager1;
             this.gridCTPN.Name = "gridCTPN";
-            this.gridCTPN.Size = new System.Drawing.Size(528, 71);
+            this.gridCTPN.Size = new System.Drawing.Size(537, 66);
             this.gridCTPN.TabIndex = 2;
             this.gridCTPN.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView5});
@@ -1185,54 +1185,57 @@
             // 
             // cmsCTDDH
             // 
-            this.cmsCTDDH.Font = new System.Drawing.Font("SF Pro Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmsCTDDH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmsCTDDH.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsCTDDH.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.miThemCTDDH});
             this.cmsCTDDH.Name = "cmsCTDDH";
-            this.cmsCTDDH.Size = new System.Drawing.Size(201, 26);
+            this.cmsCTDDH.Size = new System.Drawing.Size(240, 30);
             // 
             // miThemCTDDH
             // 
-            this.miThemCTDDH.Font = new System.Drawing.Font("SF Pro Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.miThemCTDDH.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.miThemCTDDH.Image = ((System.Drawing.Image)(resources.GetObject("miThemCTDDH.Image")));
             this.miThemCTDDH.Name = "miThemCTDDH";
-            this.miThemCTDDH.Size = new System.Drawing.Size(200, 22);
+            this.miThemCTDDH.Size = new System.Drawing.Size(239, 26);
             this.miThemCTDDH.Text = "Thêm chi tiết đơn ĐH";
             this.miThemCTDDH.Click += new System.EventHandler(this.MiThemCTDDH_Click);
             // 
             // cmsCTPX
             // 
-            this.cmsCTPX.Font = new System.Drawing.Font("SF Pro Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmsCTPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmsCTPX.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsCTPX.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.miThemCTPX});
             this.cmsCTPX.Name = "cmsCTPX";
-            this.cmsCTPX.Size = new System.Drawing.Size(220, 26);
+            this.cmsCTPX.Size = new System.Drawing.Size(259, 30);
             // 
             // miThemCTPX
             // 
-            this.miThemCTPX.Font = new System.Drawing.Font("SF Pro Text", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.miThemCTPX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.miThemCTPX.Image = ((System.Drawing.Image)(resources.GetObject("miThemCTPX.Image")));
             this.miThemCTPX.Name = "miThemCTPX";
-            this.miThemCTPX.Size = new System.Drawing.Size(219, 22);
+            this.miThemCTPX.Size = new System.Drawing.Size(258, 26);
             this.miThemCTPX.Text = "Thêm chi tiết phiếu xuất";
             this.miThemCTPX.Click += new System.EventHandler(this.MiThemCTPX_Click);
             // 
             // cmsPN
             // 
-            this.cmsPN.Font = new System.Drawing.Font("SF Pro Text", 9F, System.Drawing.FontStyle.Bold);
+            this.cmsPN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.cmsPN.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsPN.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.miThemPN,
             this.miXoaPN,
             this.miGhiPN,
             this.miThemCTPN});
             this.cmsPN.Name = "cmsPN";
-            this.cmsPN.Size = new System.Drawing.Size(224, 92);
+            this.cmsPN.Size = new System.Drawing.Size(264, 108);
             // 
             // miThemPN
             // 
             this.miThemPN.Image = ((System.Drawing.Image)(resources.GetObject("miThemPN.Image")));
             this.miThemPN.Name = "miThemPN";
-            this.miThemPN.Size = new System.Drawing.Size(223, 22);
+            this.miThemPN.Size = new System.Drawing.Size(263, 26);
             this.miThemPN.Text = "Thêm phiếu nhập";
             this.miThemPN.Click += new System.EventHandler(this.MiThemPN_Click);
             // 
@@ -1241,7 +1244,7 @@
             this.miXoaPN.Enabled = false;
             this.miXoaPN.Image = ((System.Drawing.Image)(resources.GetObject("miXoaPN.Image")));
             this.miXoaPN.Name = "miXoaPN";
-            this.miXoaPN.Size = new System.Drawing.Size(223, 22);
+            this.miXoaPN.Size = new System.Drawing.Size(263, 26);
             this.miXoaPN.Text = "Xóa phiếu nhập";
             this.miXoaPN.Click += new System.EventHandler(this.MiXoaPN_Click);
             // 
@@ -1250,7 +1253,7 @@
             this.miGhiPN.Enabled = false;
             this.miGhiPN.Image = ((System.Drawing.Image)(resources.GetObject("miGhiPN.Image")));
             this.miGhiPN.Name = "miGhiPN";
-            this.miGhiPN.Size = new System.Drawing.Size(223, 22);
+            this.miGhiPN.Size = new System.Drawing.Size(263, 26);
             this.miGhiPN.Text = "Ghi vào database";
             this.miGhiPN.Click += new System.EventHandler(this.MiGhiPN_Click);
             // 
@@ -1258,23 +1261,24 @@
             // 
             this.miThemCTPN.Image = ((System.Drawing.Image)(resources.GetObject("miThemCTPN.Image")));
             this.miThemCTPN.Name = "miThemCTPN";
-            this.miThemCTPN.Size = new System.Drawing.Size(223, 22);
+            this.miThemCTPN.Size = new System.Drawing.Size(263, 26);
             this.miThemCTPN.Text = "Thêm chi tiết phiếu nhập";
             this.miThemCTPN.Click += new System.EventHandler(this.MiThemCTPN_Click);
             // 
             // cmsChecked
             // 
+            this.cmsChecked.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmsChecked.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem});
             this.cmsChecked.Name = "cmsChecked";
-            this.cmsChecked.Size = new System.Drawing.Size(269, 26);
+            this.cmsChecked.Size = new System.Drawing.Size(325, 30);
             // 
             // bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem
             // 
             this.bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem.Enabled = false;
             this.bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem.Image")));
             this.bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem.Name = "bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem";
-            this.bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem.Size = new System.Drawing.Size(268, 22);
+            this.bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem.Size = new System.Drawing.Size(324, 26);
             this.bạnKhôngPhảiNgườiLậpPhiếuNàyToolStripMenuItem.Text = "Bạn không phải người lập phiếu này.";
             // 
             // fKCTPNPhieuNhapBindingSource1
@@ -1283,7 +1287,7 @@
             // 
             // FormLapPhieu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1149, 749);
@@ -1297,7 +1301,7 @@
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
-            this.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormLapPhieu";
             this.Text = "Lập Phiếu";
             this.Load += new System.EventHandler(this.FormLapPhieu_Load);
