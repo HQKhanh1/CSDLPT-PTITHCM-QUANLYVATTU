@@ -75,20 +75,6 @@ Một số hình ảnh
 > Đồ án sẽ có một số lỗi mà mình chưa fix (lỗi khi thoát khỏi form Login để tắt chương trình, lỗi khi nhập Phiếu Nhập, lỗi chuyển chi nhánh,...). Bên cạnh đó, giao diện đồ án này chỉ phù hợp với laptop có độ phân giải fullHD =)), nên đôi khi bạn phải chỉnh lại chút xíu).
 
 
-
-## Lời Khuyên
-> Để lại tin nhắn vào mục [Issues](https://github.com/itialan/QuanLyVatTu_CSDLPT_PTITHCM/issues) nếu bạn cần giúp đỡ.
-
 > HIỂU BÀI VÀ LÀM BÀI, QUAN TRỌNG NHẤT VẪN LÀ LÝ THUYẾT TRÊN LỚP :)
 
 
-
-## Contributors :guardsman:
-<a href="https://github.com/QuangHuy239/">
-  <img src="https://avatars.githubusercontent.com/u/67304761?v=4" width="100px;" style="border-radius: 50%;" />
-</a>
-
-
-
-## Video :tv:
-https://www.youtube.com/watch?v=jBkZzBGdkMw
